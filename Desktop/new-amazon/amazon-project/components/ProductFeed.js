@@ -16,7 +16,6 @@ const ProductFeed = ({product}) => {
             description={description}
             category={category}
             image={image}
-            
         />
     ))}
 

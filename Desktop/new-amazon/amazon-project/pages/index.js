@@ -7,7 +7,7 @@ import ProductFeed from '../components/ProductFeed';
 
  function Home({products}) {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 overflow-hidden">
    
       <Head>
         <title>Amazon 2.0</title>

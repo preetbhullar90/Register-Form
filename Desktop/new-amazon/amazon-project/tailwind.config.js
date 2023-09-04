@@ -5,7 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
   ],
-  darkMode: false,
+  // darkMode: false,
   theme: {
     extend: {
       colors: {
@@ -13,6 +13,11 @@ module.exports = {
           light: "#232F3E",
           DEFAULT: "#131921",
         },
+      },
+      screens: {
+        'fold': '200px',
+        'other': '260px',
+        // => @media (min-width: 992px) { ... }
       },
     },
   },

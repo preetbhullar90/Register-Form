@@ -1,0 +1,118 @@
+body{
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); 
+}
+.login-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-header{
+    border-bottom: 1px solid lightgray;
+    
+}
+.cards{
+    width: 18rem;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-radius: 5% 5% 0% 0%;
+      
+}
+.name{
+    outline: none;
+ background-color: lightgray;
+    margin: 10px 10px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   display: flex;
+   color: #000;
+   width: 95%;
+  
+   
+}
+
+.login-back{
+    background-color: #fff;
+    width: 400px;
+    height: 30vh;
+    border-radius: 20px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+.form-heading{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: rgb(8, 166, 215);
+    border-radius: 20px 20px 0px 0px;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+    color: #fff;
+    
+    
+}
+.paragraph{
+    padding-left: 10px;
+}
+.button-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.button{
+    color: #fff;
+
+}
+
+
+
+@media screen and (max-width:1500px){
+    .back-page{
+        width: 400px;
+        height: 40vh;
+        
+    }
+    
+}
+
+@media screen and (max-width:850px){
+    .back-page{
+        width: 400px;
+        height: 30vh;
+        
+    }
+    
+}
+
+@media screen and (max-width:766px){
+    .back-page{
+        width: 300px;
+        height: 50vh;
+        
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:400px){
+    .back-page{
+        width: 300px;
+        height: 50vh;
+        
+    }
+    
+}
+
+
+
